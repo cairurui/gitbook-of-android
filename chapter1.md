@@ -26,6 +26,3 @@ DecorView是PhoneWindow的内部类，继承FrameLayout
 
 可以用来制作EmptyLayout、LoadingView等，用来插入到某个activity中，显示在最顶上.
 
-retrofit+rxjava+okhttp+rxandroid
-fresco
-photoview
