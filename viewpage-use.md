@@ -11,4 +11,4 @@ viewpage使用FragmentPagerAdapter中fragment的总结：
 * 3、被释放的fragment实际上不会被完全回收，因为没有被调用onDestroy，下次再初始化时，也没有调用onCreate。
 * 4、当fragment被显示在屏幕上时，setUserVisibleHint为true，不显示时为false。
 
-
+而使用FragmentStatePagerAdapter是会完全回收和完全初始化Fragment的。
