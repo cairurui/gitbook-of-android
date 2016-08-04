@@ -1,4 +1,4 @@
-# HOmeActivity的那些事
+# HomeActivity的那些事
 
 * 1、首页模块分析
 * 2、底部Tab栏的另一种封装方式
