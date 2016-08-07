@@ -13,4 +13,5 @@ viewpage使用FragmentPagerAdapter中fragment的总结：
 
 而使用FragmentStatePagerAdapter是会完全回收和完全初始化Fragment的。
 
-setUserVisibleHint:当fragment显示在界面上时为true，是系统调用的方法，不需要自己调用。
+setUserVisibleHint:当fragment显示在界面上时为true，是系统调用的方法，不需要自己调用。此方法优先于其他生命周期方法。
+
