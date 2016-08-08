@@ -15,3 +15,7 @@ viewpage使用FragmentPagerAdapter中fragment的总结：
 
 setUserVisibleHint:当fragment显示在界面上时为true，是系统调用的方法，不需要自己调用。此方法优先于其他生命周期方法。
 
+再次总结：
+* FragmentPagerAdapter：是整个View被回收掉了。
+* FragmentStatePagerAdapter：是整个Fragment被回收了。
+
